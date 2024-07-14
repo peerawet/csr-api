@@ -1,0 +1,7 @@
+{
+    "require": {
+        "supabase/supabase-php": "^0.0.1",
+        "rafaelwendel/phpsupabase": "^0.0.7",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
