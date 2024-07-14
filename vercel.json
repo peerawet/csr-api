@@ -1,7 +1,13 @@
 {
   "functions": {
     "api/*.php": {
-      "runtime": "vercel-php@0.6.2"
+      "runtime": "vercel-php@0.6.2",
+      "build": {
+        "env": {
+          "COMPOSER_HOME": "/vercel/path0/.composer"
+        },
+        "src": "vercel-build.sh"
+      }
     }
   }
 }
