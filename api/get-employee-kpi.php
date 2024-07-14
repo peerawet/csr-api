@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/vendor/autoload.php'; // Adjust the path if necessary
+require_once __DIR__ . '/../vendor/autoload.php'; // Adjust the path if necessary
 
 
 use PHPSupabase\Service;
